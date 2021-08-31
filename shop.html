@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shop</title>
+  </head>
+  <style>
+    #myinput{
+      font-size: 25px;
+      color:black;
+      font-family: monospace;
+      padding: 15px 180px 15px 180px;
+      background-color: #eee;
+      color:brown;
+    }
+    ::placeholder {
+      color:brown;
+      opacity:0.7; /* Firefox */
+    }
+    .searcher{
+      padding-left: 25%;
+    }
+    .target ul li{
+      display:block;
+        color:black;
+      text-align: center;
+      padding:10px 32px;
+      text-decoration: none;
+        font-family: Century Gothic;
+        height:10%;
+      font-size:28px;
+      list-style-type: none;
+      margin:0;
+      padding:0;
+      overflow:hidden;
+
+    text-align:center;
+    }
+    img{
+      padding-bottom:3%;
+    }
+    .target a{
+      float:left;
+      font-size:26px;
+    background-color: none;
+        display:block;
+          color:black;
+        text-align: center;
+        padding:10px 32px;
+        text-decoration: none;
+          font-family: Century Gothic;
+          height:10%;
+        font-size:28px;
+        background-color:#ddd;
+
+    }
+    .target:hover{
+      background-color:#ddd;
+      color:black;
+    }
+    .nav{
+      list-style-type: none;
+      margin:0;
+      padding:0;
+      overflow:hidden;
+
+    text-align:center;
+    }
+    .nav li{
+      float:left;
+      font-size:22px;
+        background-color:#002868;
+
+    }
+    .nav li a{
+      display:block;
+      color :white;
+      text-align: center;
+      padding: 10px 41px;
+      text-decoration: none;
+        font-family: Century Gothic;
+    }
+    .nav li a:hover{
+      background-color:#012169;
+      color:#FF0000;
+
+    }
+    #LOGO{
+      font-family: monospace;
+    }
+    #LOGO:hover{
+      color:black;
+      background-color:rgba(211,221,244,0.5);
+
+    }
+    .s{
+      display:none;
+    }
+    @media screen and (max-width: 649px  ){
+      .column{
+        width:100%;
+      }
+    .s{
+      display: block;
+    }
+    #la{
+      display: block;
+
+    }
+    .nav{
+      display: none;
+    }
+
+    li{
+      list-style-type: none;
+    }
+    #la{
+    color:white;
+
+    font-size: 30px;
+    text-align: center;
+    text-decoration:none;
+    width:100%;
+    display: block;
+    background-color: #00e868;
+    color:black;
+    }
+    span{
+      display:block;
+      font-size: 50px;
+      text-align: center;
+      cursor: pointer;
+    width:100%;
+    background-color: #002868;
+    color:white;
+    }
+     #la{
+    font-family: century Gothic;
+    }
+     #la:hover{
+      background-color:#012169;
+      color:#FF0000;
+    }
+    }
+    @media screen and (max-width: 900px) {
+      .s{
+        display: block;
+      }
+
+
+    #la{
+      display: block;
+
+    }
+    .nav{
+      display: none;
+    }
+
+a{
+      list-style-type: none;
+    }
+#la{
+    color:white;
+
+    font-size: 30px;
+    text-align: center;
+    text-decoration:none;
+    width:100%;
+    display: block;
+    background-color: #00e868;
+    color:black;
+    }
+    span{
+      display:block;
+      font-size: 50px;
+      text-align: center;
+      cursor: pointer;
+    width:100%;
+    background-color: #002868;
+    color:white;
+    }
+     #la{
+    font-family: century Gothic;
+    }
+     #la:hover{
+      background-color:#012169;
+      color:#FF0000;
+    }
+    .column{
+      width:100%;
+    }
+        }
+        body{
+          background-color:black;
+        }
+        img{
+          width:27%;
+          border-radius: 25%;
+          float: left;
+        }
+        img:hover{
+          opacity: 0.8;
+        }
+        img{
+          padding-bottom:3%;
+        }
+        h1{
+          color:powderblue;
+          font-size:50px;
+          font-family:Century Gothic;
+          padding-left: 1%;
+          text-align:center;
+
+        }
+        strong{
+        float:right;
+        width: 100%;
+        font-size: 40px;
+        font-family: monospace;
+        }
+        strong{
+        padding-left:1%;
+        font-family:arial;
+        color:cadetblue;
+        }
+        h2{
+          float:left;
+          width: 60%;
+          font-size: 40px;
+          font-family: monospace;
+          padding-left: 3%;
+
+        }
+        .nav{
+          list-style-type: none;
+          margin:0;
+          padding:0;
+          overflow:hidden;
+
+        text-align:center;
+        }
+        .nav a{
+          float:left;
+          font-size:22px;
+            background-color:#002868;
+
+        }
+        .nav a{
+          display:block;
+          color :white;
+          text-align: center;
+          padding: 10px 41px;
+          text-decoration: none;
+            font-family: Century Gothic;
+        }
+        .nav a:hover{
+          background-color:#012169;
+          color:#FF0000;
+
+        }
+        @media screen and (max-width: 600px){
+h2{
+  font-size: 25px;
+}
+strong{
+  font-size: 25px;
+}
+#myinput{
+  font-size: 25px;
+  color:black;
+  font-family: monospace;
+  padding: 15px 40px 15px 40px;
+  background-color: #eee;
+  color:brown;
+  padding-right: 0%;
+  width:80%;
+}
+      .searcher{
+        padding-left: 10%;
+        }
+      img{
+        width:50%;
+        }
+.target a:hover{
+        background-color: #AAAAAA;
+        }}
+.target a:hover{
+          background-color: #AAAAAA;
+          }
+          body{
+            background-color: #555555;
+          }
+          h3{
+            color;:black;
+          font-size: 100px;
+          font-family: monospace;
+          display: none;
+          text-align: center;
+          background-color: #cb4154;}
+          h3:hover{
+            color:white;
+            background-color: #cb4154;}
+          }
+  </style>
+  <body>
+    <div class =  "s">
+
+<a id = "la" href="index.html">DEATH NOTE</a>
+<a id = "la" href="info.html">About Death Note </a>
+<a id = "la" href="char.html">Characters</a>
+<a id = "la" href="display.php">Discussion</a>
+<a id = "la" href="shop.html">Shop the Merch</a>
+<a id = "la" href ="contact.html">Contact Us </a>
+  </div>
+
+  <div class = "nav">
+  <li><b><a ID = "LOGO" href="index.html">Death Note</a></b></li>
+
+<a href="info.html">About Death Note </a>
+<a href="char.html">Characters</a>
+<a href="display.php">Discussion</a>
+<a href="shop.html">Shop the Merch</a>
+<a href ="contact.html">Contact Us </a>
+  </div>
+  <br></br>
+  <h1>Find your Merch!</h1>
+    <div class ="searcher">
+<input placeholder="Search Products" id ="myinput" onkeyup="myFunction()">
+</div>
+<br></br>
+<div class = "target" onchange="myFun()">
+<ul>
+<li><a href = "categ/app.html"> <img src = "IMG/L.jpg"></img>
+    <h2>L's Fan T-shirt
+<strong>Rs 350</strong></h2>
+    </a>
+</li>
+<li><a href = "categ/book.html"><img src = "IMG/LIGHT.jpg"></img>
+  <h2>Light Yagami's Fan T-shirt
+<strong>Rs 350</strong></h2>
+</a>
+</li>
+<li><a href = "categ/cloth.html"><img src = "IMG/LL.png"></img>
+  <h2>L vs Light T-shirt
+<strong>Rs 450</strong></h2>
+    </a>
+</li>
+<li><a href = "categ/ele.html"><img src = "IMG/MERCH.png"></img>
+  <h2>T-shirt Combo
+<strong>Rs 850</strong></h2>
+</a>
+</li>
+<li><a href = "categ/mob.html"><img src = "IMG/KIRA.png"></img>
+  <h2>Kira style T-shirt
+<strong>Rs 210</strong></h2>
+    </a>
+</li>
+<li><a href = "categ/fur.html"><img src = "IMG/NEAR.png"></img>
+  <h2>Near's Fan T-shirt
+<strong>Rs 350</strong></h2>
+    </a>
+</li>
+<li><a href = "categ/gar.html"><img src = "IMG/DN.jfif"></img>
+  <h2>Death Note Notebook
+<strong>Rs 150</strong></h2>
+    </a>
+</li>
+<li><a href = "categ/grocery.html"><img src = "IMG/MELLO.png"></img>
+  <h2>Mello's Fan T-shirt
+<strong>Rs 350</strong></h2>
+    </a>
+</li>
+<li><a href = "categ/fru.html"><img src = "IMG/RYUK.png"></img>
+  <h2>Ryuk The Shinigami's Fan T-shirt
+<strong>Rs 350</strong></h2>
+    </a>
+</li>
+<li><a href = "categ/hea.html"><img src = "IMG/MISA.png"></img>
+  <h2>Misa Aname's Fan T-shirt
+<strong>Rs 350</strong></h2>
+    </a>
+</li>
+
+
+</ul>
+
+</div>
+<h3 id = "nono">NO RESULTS FOUND</h3>
+<script>
+
+function myFunction() {
+    let input = document.getElementById('myinput').value;
+    input=input.toLowerCase();
+    let x = document.getElementsByTagName("li");
+
+    for (i = 0; i < x.length; i++) {
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+
+            x[i].style.display="none";
+document.getElementById("nono").style.display = "block";
+          }
+        else {
+            x[i].style.display="list-item";
+
+        }
+    }
+
+
+
+}
+
+</script>
+
+  </body>
+</html>
