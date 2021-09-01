@@ -7,6 +7,7 @@ I made this website is responsive. (You can view it in your mobile, your tablet 
 I made this website with HTML,CSS,JS and PHP.
 I have kept the PHP server details needed for connection (servername,username,password and db_name) hidden in PHP files due to security reasons.
 To view the website navigate throught the navigation bar.
-To use the discussion page, you'll see the posts in the real domain   and you can create posts by clicking on the creatae post button
+To use the discussion page, you'll see the posts in the real domain   and you can create posts by clicking on the creatae post button.Create a post and display it to the world.
+Every single form works in this website - it reaches me!
 You can switch between supporting characters, main characters and all the characters, by clicking on different tabs on navigaton bar.
 Hope you like the website!
