@@ -1,5 +1,5 @@
 # Death-Note-Anime-
-Death Note Anime fanmade site (NOT REAl).
+Death Note Anime fanmade site.
 This Website is Created By Prajwal of CLass XA, AFGJI
 THIS REPOSITORY IS ONLY TO VIEW CODE. TO VIEW THE OUTPUT GO TO http://innovativechallenger.co.in/ 
 As PHP needs a server to Run check out the http://innovativechallenger.co.in/
