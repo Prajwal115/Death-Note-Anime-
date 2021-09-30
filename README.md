@@ -2,8 +2,8 @@
 Death Note Anime fanmade site.
 All the information used and pictures used are just for educational purposes only. Credits of Information and Images belong to respective owners. 
 This Website is Created By Prajwal of CLass XA, AFGJI
-THIS REPOSITORY IS ONLY TO VIEW CODE. TO VIEW THE OUTPUT GO TO http://innovativechallenger.co.in/ 
-As PHP needs a server to Run check out the http://innovativechallenger.co.in/
+THIS REPOSITORY IS ONLY TO VIEW CODE. TO VIEW THE OUTPUT GO TO http://innovativechallenger.co.in/Death-Note-anime/
+As PHP needs a server to Run check out the http://innovativechallenger.co.in/Death-Note-anime/
 I made this website is responsive. (You can view it in your mobile, your tablet and in your laptop/PC)
 I made this website with HTML,CSS,JS and PHP.
 I have kept the PHP server details needed for connection (servername,username,password and db_name) hidden in PHP files due to security reasons.
